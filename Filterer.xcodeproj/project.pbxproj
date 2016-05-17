@@ -61,10 +61,10 @@
 			isa = PBXGroup;
 			children = (
 				9E9CF7ED1CEAD76B00E9983B /* Classes */,
-				4DC1999B1BB201E100AA75E7 /* Main.storyboard */,
 				4DC1999E1BB201E100AA75E7 /* Assets.xcassets */,
-				4DC199A01BB201E100AA75E7 /* LaunchScreen.storyboard */,
 				4DC199A31BB201E100AA75E7 /* Info.plist */,
+				4DC199A01BB201E100AA75E7 /* LaunchScreen.storyboard */,
+				4DC1999B1BB201E100AA75E7 /* Main.storyboard */,
 			);
 			path = Filterer;
 			sourceTree = "<group>";
@@ -72,12 +72,12 @@
 		9E9CF7ED1CEAD76B00E9983B /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				9EF68B851CEB1A120074402C /* View */,
 				9E9CF7EF1CEAD7EF00E9983B /* Others */,
+				9EF68B851CEB1A120074402C /* View */,
 				9E9CF7EE1CEAD7D300E9983B /* ViewController */,
 				4DC199971BB201E100AA75E7 /* AppDelegate.swift */,
 			);
-			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		9E9CF7EE1CEAD7D300E9983B /* ViewController */ = {
@@ -85,16 +85,16 @@
 			children = (
 				4DC199991BB201E100AA75E7 /* ViewController.swift */,
 			);
-			name = ViewController;
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 		9E9CF7EF1CEAD7EF00E9983B /* Others */ = {
 			isa = PBXGroup;
 			children = (
-				4DC199A91BB2049F00AA75E7 /* RGBAImage.swift */,
 				9E9CF7F01CEAE70800E9983B /* ImageFilter.swift */,
+				4DC199A91BB2049F00AA75E7 /* RGBAImage.swift */,
 			);
-			name = Others;
+			path = Others;
 			sourceTree = "<group>";
 		};
 		9EF68B851CEB1A120074402C /* View */ = {
@@ -102,7 +102,7 @@
 			children = (
 				9EF68B861CEB1A1F0074402C /* MyCell.swift */,
 			);
-			name = View;
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,6 +192,7 @@
 				4DC1999C1BB201E100AA75E7 /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		4DC199A01BB201E100AA75E7 /* LaunchScreen.storyboard */ = {
@@ -200,6 +201,7 @@
 				4DC199A11BB201E100AA75E7 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
